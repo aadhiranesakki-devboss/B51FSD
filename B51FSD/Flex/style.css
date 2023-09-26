@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* overall property-ah select pandrathukku star use pandrom */
+#main-container{
+    border : 2px solid black; 
+    height: 580px;
+    margin: 27px;
+    padding: 14px;
+    display: flex;
+    gap: 0.5rem;
+    flex-flow: row wrap;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* for y-axis direction */
+       justify-content: center;   
+    /* justify-content: space-around; */
+    /*(ELLA EADATHUKKUM EVEN SPACE VARUM ATHAN SPACE ARROUND)*/
+     /* justify-content: space-between; */
+     /*(RENU CELL-KKU NADUVULA IRUKKURA SPACEAH MATTUM EVENAH VACHURUKKUM)*/
+     /* justify-content: flex-end; */
+     /* justify-content: flex-start; */
+     /* justify-content: space-evenly; */
+     /* (EXACT EQUAL POITNS IRUKKUM,EVLO CHINNATHA SCROLE PANNUNALUM ATHUKKU YETHA EVEN POINTS IRUKKUM ATHULA, SAME LIKE SPACE ARROUND )   */
+     /* justify-content: stretch; */
+     /*(ITS DOES NOT CARE ABOUT ANY SPACES, ORU STRAIGT LINE LA RESULT KUDUKKUM LIKE
+     STARTLA IRUNTHU LEFTLA KUDUKKUM VERA SPACE ELLAM CONCIDER PANNATHU) */
+
+/* for x-axis direction */
+   align-content: center; 
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+   /* align-content: flex-start;
+   align-content: flex-end; */
+   /* align-content: space-between; */
+   /* align-content: stretch; */
+    /* align-items: center; */
+
+}
+.box{
+         width: 50px;
+         height: 50px;
+         background-color: red;
+         border:2px solid black;
+         font-weight: bolder;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}

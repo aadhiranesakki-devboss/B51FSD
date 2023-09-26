@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* whole contentah select pandrthukkaga * kuduthurukkom */
+
+#main-box{
+    border:2px solid black;
+    width: 500px;
+    height:500px;
+    margin: 0 auto;
+    /* (margin 0 auto) ipdi kudutha centerla vanthurum */
+    background-color: coral;
+    padding: 10px 0px 10px 0px;
+    /* position: absolute; */
+    /* ipo position absolute kudutha ithu whole windowah parentah eduthukittu velila move aagirum
+    because this is absolute */
+}
+.box{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.absolute{
+    /* position: absolute; */
+    /* <!-- absolute eppaume whole windowah than parent classah vachukkum --> */
+    background-color: blue;
+    /* left: 25px;
+    top: 10px; */
+}
+.relative{
+    /* margin-left: 150px; */
+    background-color: aqua;
+    position: relative;
+    /* relative position main boxah parenaah eduthuttu ullukullaye than move aagum */
+    bottom: 20px;
+    right: 15px;
+    top: 10px;
+    left: 50px;
+}
+.sticky{
+    background-color: brown;
+    position: 0;
+    /* ipo top 0 aagura varaikkum stickyah */
+    /* namma entha position soldromo antha eadam varaikkum stickyah irukkum */
+}
+.fixed{
+    background-color: chartreuse;
+    position: fixed;
+    /* fixed position antha linelaye than irukkum move aagathu */
+    top: 0;
+    right: 0;
+}   
+
+.parent{
+    font-size: 18px;
+    color: red;
+    /* horizontal gradients */
+    /* to right, to left, to bottom, to top */
+    /* background: radial-gradient(circle,yellow, blueviolet); */
+}
+
+.child{
+    font-size: inherit;
+    color: inherit;
+}
